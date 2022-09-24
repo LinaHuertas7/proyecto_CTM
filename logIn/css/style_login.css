@@ -56,8 +56,8 @@
 }
 
 .logo_login_page img {
-    margin: 2vw;
-    width: 167px;
+    margin: 1vw;
+    width: 195px;
 }
 
 .logo_login_page h2 {
@@ -98,7 +98,7 @@ input {
     border-radius: 7px;
     border: 1px solid var(--secondary-color);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    height: 2.7vw;
+    height: 3vw;
     margin: 2vw auto;
     padding: 0vw 1vw;
     width: 100%;
@@ -127,9 +127,61 @@ input {
 /*------------------Tablet Desing------------------------*/
 
 @media (min-width: 600px) and (max-width: 1000px) {
+    input {
+        height: 6vw;
+    }
+    .logo_login_page img {
+        width: 206px;
+    }
+    .btn_form_login_page {
+        margin: 6vw 0vw 4.5vw;
+        padding: 1.3vw 0vw;
+    }
+    .video_login_page {
+        height: 100%;
+        left: calc(100% - 146%);
+        width: 247%;
+    }
+    .div_form_login_page {
+        min-width: 69%;
+        right: calc(100% - 85%);
+    }
+    .form_fiels_login_page {
+        margin-bottom: 3.5vw;
+    }
 }
 
 /*-------------------Movile Design-----------------------*/
 
 @media (max-width: 599px) {
+    .div_form_login_page {
+        min-width: 92%;
+        right: calc(100% - 96%);
+    }
+    .form_fiels_login_page {
+        margin-bottom: 5.5vw;
+        margin-top: 5vw;
+    }
+    input {
+        height: 9vw;
+        padding: 0vw 3vw;
+    }
+    .btn_form_login_page {
+        margin: 4.5vw 0vw 6.5vw;
+        padding: 2.5vw 0vw;
+    }
+    .logo_login_page img {
+        margin: 4vw;
+        width: 195px;
+    }
+    .form_login_page {
+        margin-top: -6vw;
+    }
+    .video_login_page {
+        height: 100%;
+        left: calc(100% - 170%);
+        max-height: 257%;
+        max-width: 400%;
+        width: 400%;
+    }
 }
