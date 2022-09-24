@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------Variable color------------------------*/
+
+:root {
+    --primary-color: #006667;
+    --secondary-color: #afa8a8;
+    --tertiary-color: #31363f;
+    --white-color: #ffff;
+}
+
+/*------------------Styles video login page----------------*/
+
+.container_video_login_page {
+    max-height: 200vh;
+    max-width: 100vw;
+}
+
+.video_login_page {
+    background-color: rgba(var(--rgb-black), 0.5);
+    height: 120%;
+    left: calc(100% - 114%);
+    max-height: 200%;
+    max-width: 200%;
+    position: fixed;
+    width: 160%;
+    z-index: -100;
+}
+
+/*------------------Styles form login page----------------*/
+
+.div_form_login_page {
+    backdrop-filter: blur(30px);
+    background: hsla(0, 0%, 100%, 0.75);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: flex;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 96%;
+    min-width: 38%;
+    position: fixed;
+    right: calc(100% - 42%);
+    top: calc(100% - 98%);
+    z-index: 1000;
+}
+
+.logo_login_page {
+    align-items: center;
+    margin-bottom: calc(100% - 94%);
+}
+
+.logo_login_page img {
+    margin: 2vw;
+    width: 167px;
+}
+
+.logo_login_page h2 {
+    margin-bottom: 1vw;
+}
+
+.logo_login_page,
+.form_login_page {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+.form_login_page {
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.form_login_page p {
+    margin: 0vw auto 2vw;
+    text-align: center;
+}
+
+.form_fiels_login_page {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5vw;
+    margin-left: calc(100% - 90%);
+    width: 80%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-radius: 7px;
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 2.7vw;
+    margin: 2vw auto;
+    padding: 0vw 1vw;
+    width: 100%;
+}
+
+.div_btn_login_page {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn_form_login_page {
+    background: var(--primary-color);
+    border-radius: 10px;
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0vw 0vw 2.5vw;
+    padding: 0.5vw 0vw;
+    width: 40%;
+}
+
+/*------------------Tablet Desing------------------------*/
+
+@media (min-width: 600px) and (max-width: 1000px) {
+}
+
+/*-------------------Movile Design-----------------------*/
+
+@media (max-width: 599px) {
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="./img/favicon.ico" />
+        <link rel="stylesheet" href="./css/style_login.css" />
+
+        <title>Proyecto CTM</title>
+    </head>
+
+    <body>
+        <!-- Principal Section  -->
+        <section class="section_principal">
+            <!-- Container video login page  -->
+            <div class="container_video_login_page">
+                <video
+                    class="video_login_page"
+                    onloadedmetadata="this.muted=true"
+                    autoplay
+                    loop
+                >
+                    <source src="./img/video_login_page.mp4" />
+                </video>
+            </div>
+
+            <!-- Container form login page  -->
+            <div class="div_form_login_page">
+                <!-- Logo login page  -->
+                <div class="logo_login_page">
+                    <img src="./img//logo_sena_principal.png" alt="logo" />
+                    <h2>Inicio de Sesión</h2>
+                    <p>Please login to your account</p>
+                </div>
+                <form class="form_login_page" method="post" action="#">
+                    <div class="form_fiels_login_page">
+                        <label>Username:</label>
+                        <input
+                            type="text"
+                            id="username"
+                            name="username"
+                            placeholder="Ingrese su usuario"
+                        />
+                    </div>
+
+                    <div class="form_fiels_login_page">
+                        <label>Contraseña:</label>
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Ingrese su contraseña"
+                        />
+                    </div>
+
+                    <div class="div_btn_login_page">
+                        <button class="btn_form_login_page" type="button">
+                            Iniciar sesión
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
